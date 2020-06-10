@@ -18,7 +18,8 @@
 }
 
 .top-nav {
-    height: 100px;
+    max-height: 100px;
+    z-index: 2;
 }
 
 .menu-svg img {
@@ -27,14 +28,10 @@
     filter: invert(50%);
 }
 
-.menu-svg {
-    display: none;
-}
-
 .subscribe button {
     border-radius: 4px;
     font-weight: bold;
-    background-color: #FFE53B;
+    background-color: #ffe53b;
 }
 
 .subscribe button::after,
@@ -45,6 +42,11 @@
     margin-left: 10px;
     filter: invert(100%);
     background-size: 20%;
+}
+
+.botom-li li {
+    float: left;
+    list-style-type: none;
 }
 
 .login button,
@@ -77,7 +79,7 @@
 
 .bottom-nav ul li {
     border-right: 1px solid rgb(230, 225, 225);
-    padding-top: .5rem;
+    padding-top: 0.5rem;
     margin-top: 10px;
 }
 
@@ -87,7 +89,7 @@
 
 .bottom-nav ul li a {
     margin-right: 1rem;
-    margin: 0 1rem 0 .5rem;
+    margin: 0 1rem 0 0.5rem;
     color: black;
     font-weight: bold;
 }
@@ -98,7 +100,7 @@
 }
 
 .bottom-nav {
-    border-bottom: 2px solid #F4F5F6;
+    border-bottom: 2px solid #f4f5f6;
 }
 
 .search-svg {
@@ -113,14 +115,15 @@
     margin-right: -15px;
     margin-top: -10px;
     overflow: hidden;
+    right: -15px;
 }
 
 .bg-orange {
-    background-color: #F34423;
+    background-color: #f34423;
 }
 
 .bg-silver {
-    background-color: #F4F5F6;
+    background-color: #f4f5f6;
 }
 
 .seacrh-in {
@@ -165,7 +168,7 @@
 }
 
 .catg {
-    background-color: #F1F1F2;
+    background-color: #f1f1f2;
     height: fit-content;
     min-width: 15%;
     min-height: 10%;
@@ -175,7 +178,7 @@
 }
 
 .catg a {
-    color: #F05845;
+    color: #f05845;
     font-weight: bold;
 }
 
@@ -203,6 +206,7 @@
 .vs {
     width: 32px;
     height: 32px;
+    z-index: 2;
 }
 
 .vs::before {
@@ -224,6 +228,10 @@
     right: 0;
 }
 
+.c-img img {
+    max-width: 63px;
+}
+
 .icon-img {
     content: "";
     background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
@@ -232,7 +240,7 @@
 }
 
 .ft-orange {
-    color: #F34423;
+    color: #f34423;
 }
 
 .img-top {
@@ -246,11 +254,43 @@
 
 .newsweek-logo-foot svg {
     display: block;
-    fill: #F34423;
+    fill: #f34423;
     width: 200px;
 }
 
 .right-foot ul li a img {
     width: 20px;
     max-height: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .stories-debate-sponsored,
+    .debate,
+    .subscribe-sec,
+    .l-form {
+        width: 100% !important;
+    }
+    .deb-marg {
+        left: 0;
+    }
+    .card-img {
+        max-width: fit-content !important;
+    }
+    .vs-img {
+        right: 0;
+    }
+    .start-your-day {
+        max-width: 300px;
+    }
+    .magazine-editors a,
+    .mg-g {
+        font-size: .8rem;
+    }
+    .newsweek-logo img {
+        width: 132px;
+    }
+    .top-nav {
+        position: fixed;
+        top: 0;
+    }
 }

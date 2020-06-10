@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <main class="w-100 mx-0 px-0">
-        <nav class=" d-flex flex-column navbar px-0 mx-0 w-100">
-            <div class="top-nav d-flex flex-row justify-content-between align-items-center bg-orange w-100">
-                <div class="date-weather d-flex flex-column color-white">
+    <main class="w-100 mx-0 px-0 pt-0">
+        <nav class=" d-flex flex-column navbar px-0 mx-0 w-100 ">
+            <div class="top-nav d-flex flex-row justify-content-between align-items-center bg-orange w-100 pt-md-1 pb-md-1">
+                <div class="date-weather d-lg-flex flex-column color-white d-md-none d-sm-none">
                     <div class="weather d-flex flex-row ">
                         <div class="cloud-img left-margin-10">
                             <img src="https://g.newsweek.com/img/weather/30.png" alt="">
@@ -30,7 +30,7 @@
                         <p>Fri, June 5, 2020</p>
                     </div>
                 </div>
-                <div class="newsweek-logo">
+                <div class="newsweek-logo ml-md-4 ml-sm-4">
                     <img src="resources/newsweek.svg" alt="NewsWeek">
                 </div>
                 <div class="login-subscribe d-flex flex-row align-items-center">
@@ -40,13 +40,13 @@
                     <div class="subscribe ">
                         <button class="border-0 ">SUBSCRIBE</button>
                     </div>
-                    <div class="menu-svg">
+                    <div class="menu-svg d-lg-none">
                         <img src="resources/menu.svg" alt="">
                     </div>
                 </div>
             </div>
-            <div class="bottom-nav d-flex flex-row w-100 ">
-                <ul class="d-flex flex-row justify-content-around align-items-center w-100">
+            <div class="bottom-nav d-lg-flex flex-row w-100 overflow-hidden d-md-none d-sm-none">
+                <ul class="d-flex flex-row justify-content-around align-items-center w-100 overflow-hidden">
                     <li>
                         <a href="">U.S.</a>
                     </li>
@@ -82,15 +82,15 @@
                     </li>
                 </ul>
                 <input class="border-0 seacrh-in " type="text" placeholder="Search">
-                <div class="side-li bg-orange overflow-hidden"></div>
+                <div class="side-li bg-orange "></div>
             </div>
         </nav>
-        <section class="d-flex flex-row">
-            <section class="stories-debate-sponsored container px-0 mx-auto w-70">
-                <div class="row ml-4 mr-1">
-                    <div class="featured-stories col-5 pl-0">
+        <section class="main-sec d-flex flex-lg-row flex-md-column flex-sm-column mt-sm-3 mt-md-5">
+            <section class="stories-debate-sponsored container px-0 mx-auto w-70 ">
+                <div class="row ml-4 mr-1 sm-no-gutter">
+                    <div class="featured-stories col-md-5 col-lg-5 pl-0 col-sm-12 order-lg-1 order-md-1 order-sm-2">
                         <h3>Featured Stories</h3>
-                        <article class="f1 card ">
+                        <article class="f1 card border-0">
                             <div class="f-img position-relative">
                                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1596630/trump-international-hotel-protest-washington-dc.jpg?w=397&h=265&q=90&f=6dbc5bfd8745c9635d2f2afb83d611fe" alt="protest">
                                 <div class="catg position-absolute d-flex align-items-center justify-content-center">
@@ -107,7 +107,7 @@
                                 </p>
                             </div>
                         </article>
-                        <article class="f2 card ">
+                        <article class="f2 card border-0">
                             <div class="f-img position-relative">
                                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1596605/national-guard.jpg?w=397&h=265&q=90&f=3d5613f5e54e0747938fbbd83fed7ad8" alt="protest">
                                 <div class="catg position-absolute d-flex align-items-center justify-content-center">
@@ -123,7 +123,7 @@
                                     The demonstration outside the Trump Hotel in Washington, D.C. followed similar protests at the Trump Tower in New York City. w-100 </p>
                             </div>
                         </article>
-                        <article class="f3 card ">
+                        <article class="f3 card border-0">
                             <div class="f-img position-relative">
                                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1596543/mark-esper.jpg?w=397&h=265&q=90&f=a34809a07b00e63b804c324a18e9fd9b" alt="protest">
                                 <div class="catg position-absolute d-flex align-items-center justify-content-center">
@@ -140,7 +140,7 @@
                                 </p>
                             </div>
                         </article>
-                        <article class="f4 card ">
+                        <article class="f4 card border-0">
                             <div class="f-img position-relative">
                                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1596282/mosul-iraq-us-troop-withdraw.jpg?w=397&h=265&q=90&f=a9c5e426bc64a50fd2cf07475b65ad85" alt="protest">
                                 <div class="catg position-absolute d-flex align-items-center justify-content-center">
@@ -157,7 +157,7 @@
                                 </p>
                             </div>
                         </article>
-                        <article class="f5 card ">
+                        <article class="f5 card border-0">
                             <div class="f-img position-relative">
                                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1596528/george-floyd.jpg?w=397&h=265&q=90&f=8c95a5e1c338c78134a19066d49db82c" alt="protest">
                                 <div class="catg position-absolute d-flex align-items-center justify-content-center">
@@ -174,12 +174,10 @@
                                 </p>
                             </div>
                         </article>
-
-
                     </div>
-                    <div class="top-stories col-7 px-0">
+                    <div class="top-stories col-sm-12 col-md-7 col-lg-7  px-0 order-sm-1 order-md-2 order-lg-2">
                         <h3>Top Stories</h3>
-                        <article class="t1 card ">
+                        <article class="t1 card border-0">
                             <div class="f-img position-relative">
                                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1596483/china-hong-kong-future-opener.jpg?w=591&h=364&l=24&t=59&f=3e56aaa20ea4ede38436dbe97d27bc77" alt="protest">
                                 <div class="catg position-absolute d-flex align-items-center justify-content-center">
@@ -440,11 +438,11 @@
                 </div>
 
             </section>
-            <div class="debate mt-4 container w-30 ">
-                <div class="col-12">
+            <div class="debate mt-4 container w-30 px-md-0 ">
+                <div class="col-12 mx-0 px-0 w-100 px-md-0 pl-lg-2">
                     <h3>The Debate</h3>
                     <article class="card pt-3 px-0 mx-0 d-flex flex-row border-bottom-0 border-left-0 border-right-0 border-success">
-                        <div class="card-img w-50">
+                        <div class="c-img card-img w-50">
                             <img class="rounded-circle w-75" src="https://d.newsweek.com/en/full/1596838/eugene-kontorovich.png?w=150&h=150&f=814307c1a56b61776f2e6954a2ec2cdd" alt="">
                         </div>
                         <div class="deb-marg">
@@ -464,7 +462,7 @@
                     <div class="decoration d-flex justify-content-center  w-100 position-relative">
                         <div class="vs  rounded-circle d-flex align-items-center justify-content-center bg-dark text-light">VS</div>
                     </div>
-                    <article class="card pt-3 px-0 mx-0 d-flex flex-row border-top-0 border-left-0 border-right-0 border-primary">
+                    <article class="card pt-3 px-0 mx-0 justify-content-between d-flex flex-row border-top-0 border-left-0 border-right-0 border-primary">
 
                         <div class="deb-marg">
                             <h4>
@@ -478,14 +476,14 @@
                                 BY <span class="font-weight-bold"> MICHELE GOODWIN</span>
                             </div>
                         </div>
-                        <div class="card-img w-50">
-                            <img class="rounded-circle w-75" src="https://d.newsweek.com/en/full/1596837/michele-goodwin.png?w=150&h=150&f=1ca7b38fdf287cb9199f0c5b38479324" alt="">
+                        <div class="ml-5 c-img card-img w-50 vs-img">
+                            <img class="rounded-circle  w-75" src="https://d.newsweek.com/en/full/1596837/michele-goodwin.png?w=150&h=150&f=1ca7b38fdf287cb9199f0c5b38479324" alt="">
                         </div>
                     </article>
                     <div class="opinion mt-5">
                         <h2>OPINION</h2>
                         <article class="card pt-2 px-0 mx-0 d-flex flex-row border-0">
-                            <div class="card-img w-50">
+                            <div class="c-img card-img w-50">
                                 <img class="rounded-circle w-75" src="https://d.newsweek.com/en/full/1597017/joan-cook.png?w=63&h=63&f=1567ffcb0be01f68b9806f127cfd127d" alt="">
                             </div>
                             <div class="deb-marg">
@@ -503,7 +501,7 @@
 
                         </article>
                         <article class="card pt-2 px-0 mx-0 d-flex flex-row border-bottom-0 border-left-0 border-right-0">
-                            <div class="card-img w-50">
+                            <div class="c-img card-img w-50">
                                 <img class="rounded-circle w-75" src="https://d.newsweek.com/en/full/1596838/eugene-kontorovich.png?w=150&h=150&f=814307c1a56b61776f2e6954a2ec2cdd" alt="">
                             </div>
                             <div class="deb-marg">
@@ -521,7 +519,7 @@
 
                         </article>
                         <article class="card pt-2 px-0 mx-0 d-flex flex-row border-bottom-0 border-left-0 border-right-0">
-                            <div class="card-img w-50">
+                            <div class="c-img card-img w-50">
                                 <img class="rounded-circle w-75" src="https://d.newsweek.com/en/full/1596838/eugene-kontorovich.png?w=150&h=150&f=814307c1a56b61776f2e6954a2ec2cdd" alt="">
                             </div>
                             <div class="deb-marg">
@@ -539,7 +537,7 @@
 
                         </article>
                         <article class="card pt-2 px-0 mx-0 d-flex flex-row border-bottom-0 border-left-0 border-right-0">
-                            <div class="card-img w-50">
+                            <div class="c-img card-img w-50">
                                 <img class="rounded-circle w-75" src="https://d.newsweek.com/en/full/1596838/eugene-kontorovich.png?w=150&h=150&f=814307c1a56b61776f2e6954a2ec2cdd" alt="">
                             </div>
                             <div class="deb-marg">
@@ -557,7 +555,7 @@
 
                         </article>
                         <article class="card pt-2 px-0 mx-0 d-flex flex-row border-bottom-0 border-left-0 border-right-0">
-                            <div class="card-img w-50">
+                            <div class="c-img card-img w-50">
                                 <img class="rounded-circle w-75" src="https://d.newsweek.com/en/full/1596838/eugene-kontorovich.png?w=150&h=150&f=814307c1a56b61776f2e6954a2ec2cdd" alt="">
                             </div>
                             <div class="deb-marg">
@@ -575,7 +573,7 @@
 
                         </article>
                     </div>
-                    <div class="start-your-day w-100 bg-light mt-4">
+                    <div class="start-your-day w-100 bg-light mt-4 mx-md-auto">
                         <div class="icon d-flex flex-row px-4 font-weight-bold pt-3">
                             <div class="icon-img mt-1"></div>
                             <p class="ml-2">START YOUR DAY WITH OUR TOP 5 ARTICLES</p>
@@ -592,8 +590,8 @@
 
             </div>
         </section>
-        <div class="magazine-editors container mx-auto px-0 w-100">
-            <div class="magazine-title col-12 d-flex flex-row justify-content-center align-items-center border-bottom pb-2">
+        <div class="magazine-editors container mx-auto px-0 w-100 mt-md-5">
+            <div class="magazine-title col-12 d-flex flex-row justify-content-center align-items-center border-bottom pb-2 ">
                 <div class="mg-title ">
                     <div class="icon-img mt-1"></div>
                 </div>
@@ -602,7 +600,7 @@
                 </div>
             </div>
             <div class="row mt-3 ">
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 col-sm-12 mt-md-5 mt-sm-0">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=360&h=480&q=90&f=0c004bf9d11bfe2618959e709606e728" alt="protest">
@@ -616,7 +614,7 @@
                         </h4>
                     </article>
                 </div>
-                <div class="col-3 mt-5">
+                <div class="col-lg-3 col-md-3 col-sm-12 mt-5 mt-md-0 mt-sm-0">
                     <article class="f1 card border-0 mt-5">
                         <div class=" w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1595200/fea-biden-banner.jpg?w=466&h=311&l=48&t=36&q=90&f=16dca6d1bde2bb2b38c620d3ee820920" alt="protest">
@@ -637,7 +635,7 @@
                         </h4>
                     </article>
                 </div>
-                <div class="col-3 mt-5">
+                <div class="col-lg-3 col-md-3 col-sm-12 mt-5 mt-md-0 mt-sm-0">
                     <article class="f1 card border-0 mt-5">
                         <div class=" w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1595200/fea-biden-banner.jpg?w=466&h=311&l=48&t=36&q=90&f=16dca6d1bde2bb2b38c620d3ee820920" alt="protest">
@@ -658,7 +656,7 @@
                         </h4>
                     </article>
                 </div>
-                <div class="col-3 mt-5">
+                <div class="col-lg-3 col-md-3 col-sm-12 mt-5 mt-md-0 mt-sm-0">
                     <article class="f1 card border-0 mt-5">
                         <div class=" w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1595200/fea-biden-banner.jpg?w=466&h=311&l=48&t=36&q=90&f=16dca6d1bde2bb2b38c620d3ee820920" alt="protest">
@@ -680,8 +678,8 @@
                     </article>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3 mt-3">
+            <div class="row ">
+                <div class="col-3 mt-3 col-lg-3 col-md-3 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1596099/cul-cooper-banner.jpg?w=466&h=311&l=43&t=51&q=90&f=c47237399d8b8044b685bd7a8a6f50ca" alt="protest">
@@ -702,7 +700,7 @@
                         </h4>
                     </article>
                 </div>
-                <div class="col-3 mt-3">
+                <div class="col-3 mt-3 col-lg-3 col-md-3 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1596099/cul-cooper-banner.jpg?w=466&h=311&l=43&t=51&q=90&f=c47237399d8b8044b685bd7a8a6f50ca" alt="protest">
@@ -723,7 +721,7 @@
                         </h4>
                     </article>
                 </div>
-                <div class="col-3 mt-3">
+                <div class="col-3 mt-3 col-lg-3 col-md-3 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1596099/cul-cooper-banner.jpg?w=466&h=311&l=43&t=51&q=90&f=c47237399d8b8044b685bd7a8a6f50ca" alt="protest">
@@ -744,7 +742,7 @@
                         </h4>
                     </article>
                 </div>
-                <div class="col-3 mt-3">
+                <div class="col-3 mt-3 col-lg-3 col-md-3 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1596099/cul-cooper-banner.jpg?w=466&h=311&l=43&t=51&q=90&f=c47237399d8b8044b685bd7a8a6f50ca" alt="protest">
@@ -766,7 +764,7 @@
                     </article>
                 </div>
             </div>
-            <div class="magazine-title col-12 d-flex flex-row justify-content-center align-items-center border-bottom pb-2">
+            <div class="magazine-title col-12 d-flex flex-row justify-content-center align-items-center border-bottom pb-2 mt-md-4">
                 <div class="mg-title ">
                     <div class="icon-img mt-1"></div>
                 </div>
@@ -775,7 +773,7 @@
                 </div>
             </div>
             <div class="row mt-3 ">
-                <div class="col-3">
+                <div class="col-3 col-md-6 col-lg-3 col-md-3 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1597466/covid-19-research.jpg?w=397&h=295&f=fa21b853435080cee7f8954f312662ce" alt="protest">
@@ -791,7 +789,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1597466/covid-19-research.jpg?w=397&h=295&f=fa21b853435080cee7f8954f312662ce" alt="protest">
@@ -807,7 +805,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1597466/covid-19-research.jpg?w=397&h=295&f=fa21b853435080cee7f8954f312662ce" alt="protest">
@@ -823,7 +821,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1597466/covid-19-research.jpg?w=397&h=295&f=fa21b853435080cee7f8954f312662ce" alt="protest">
@@ -842,7 +840,7 @@
                 </div>
             </div>
             <div class="row mt-3 ">
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1597427/denver.jpg?w=397&h=295&f=364e811d346bb717a5c7bcd15f4d8135" alt="protest">
@@ -859,7 +857,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1597427/denver.jpg?w=397&h=295&f=364e811d346bb717a5c7bcd15f4d8135" alt="protest">
@@ -876,7 +874,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1597427/denver.jpg?w=397&h=295&f=364e811d346bb717a5c7bcd15f4d8135" alt="protest">
@@ -893,7 +891,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <article class="f1 card border-0">
                         <div class=" position-relative w-100">
                             <img class="card-img-top w-100 h-auto" src="https://d.newsweek.com/en/full/1597427/denver.jpg?w=397&h=295&f=364e811d346bb717a5c7bcd15f4d8135" alt="protest">
@@ -1098,12 +1096,12 @@
             </div>
 
         </div>
-        <div class="sub-news d-flex flex-row w-100 mx-0 border-top border-bottom pt-5 pb-5">
-            <div class="subscribe-sec d-flex flex-column ml-3 mr-5  mx-5 w-70">
+        <div class="sub-news d-flex flex-row w-100 mx-0 border-top border-bottom pt-5 pb-5 flex-lg-row flex-md-column mx-md-0 px-pd-0 pr-md-4">
+            <div class="subscribe-sec d-flex flex-column ml-3 mr-5  mx-5 w-70 px-md-0 ml-md-2 mr-md-5 mt-lg-5">
                 <div class="UWMBTCS-title ft-orange">
                     <h5 class="font-weight-bold">SUBSCIRBE</h5>
                 </div>
-                <div class="sub  bg-silver d-flex flex-row px-0 ">
+                <div class="sub bg-silver d-flex flex-row px-0 pb-4">
                     <div class="sub-img position-relative flex-n ml-5  pr-5">
                         <div class="img-back position-relative mt-5">
                             <img src="https://d.newsweek.com/en/full/1591879/may-29-june-06-2020-cover.jpg?w=170&q=95&f=56aad51c81fc710a32b2778640b7e471" alt="">
@@ -1121,11 +1119,11 @@
                     </div>
                 </div>
             </div>
-            <div class="subscribe-sec d-flex flex-column ml-0 mr-4 mx-2 w-30">
+            <div class="subscribe-sec d-flex flex-column ml-0 mr-4 mx-2 w-30 mt-md-5">
                 <div class="UWMBTCS-title ft-orange">
                     <h5 class="font-weight-bold">NEWSLETTER</h5>
                 </div>
-                <div class="sub bg-silver d-flex flex-row px-0 pt-3 pb-3">
+                <div class="sub bg-silver d-flex flex-row px-0 pt-3 pb-3 ">
                     <div class="w-img pl-2">
                         <img class="h-100" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="">
                     </div>
@@ -1134,7 +1132,7 @@
                         </h3>
                         <p class="mr-3">See why nearly a quarter of a million subscribers begin their day with the Starting 5.
                         </p>
-                        <form action="#" class="d-flex justify-content-center flex-column ml-1 w-75 mt-2">
+                        <form action="#" class="l-form d-flex justify-content-center flex-column ml-1 w-75 mt-2">
                             <input class="" type="email" placeholder="Email Address">
                             <button class="email-btn mt-2 bg-orange font-weight-bold text-light btn">
                                 FREE SIGN UP
@@ -1188,7 +1186,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="bottom-footer ml-4 mt-3">
+            <div class="bottom-footer ml-4 mt-3 overflow-hidden">
                 <ul class="d-flex flex-row">
                     <li class="pr-2">
                         Editions:
@@ -1219,7 +1217,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="botom-li d-flex flex-row justify-content-between pr-2">
+                <ul class="botom-li  pr-2 ">
                     <li class="pr-2 border-right">
                         <a class="text-dark" href="">
                             About Us
@@ -1280,10 +1278,7 @@
                             Announcements
                         </a>
                     </li>
-
-                </ul>
-                <ul class="botom-li">
-                    <li class="pr-2">
+                    <li class="pr-2 border-right">
                         <a class="text-dark" href="">
                             Consent preferences
                         </a>
