@@ -14,7 +14,7 @@ Using bootstrap and media queries to achieve responsiveness.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/news-week/27e70bde1cb7cfef6270e3798e8c8d980cd6a197/index.html)
+[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/news-week/6f303f5195fd2614074c8c914aa5c6a6b14c965f/index.html)
 
 ## Author
 
