@@ -348,4 +348,8 @@ body {
   .newsweek-logo-foot svg {
     width: 150px;
   }
+
+  .d-h-btn {
+    width: 50% !important;
+  }
 }
