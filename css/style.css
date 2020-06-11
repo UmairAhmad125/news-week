@@ -307,3 +307,45 @@ body {
     align-items: center;
   }
 }
+
+@media screen and (min-width: 200px) and (max-width: 577px) {
+  .deb-xs,
+  .fs-xs,
+  .date-weather,
+  .her-xs,
+  .art-xs,
+  .bottom-nav,
+  .w-img {
+    display: none !important;
+  }
+
+  .sub-news {
+    flex-direction: column;
+  }
+
+  .top-stories {
+    margin-top: 5px;
+  }
+
+  .art-xs-txt {
+    margin-left: 2%;
+  }
+
+  .depth {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscribe-sec {
+    margin-left: 1% !important;
+  }
+
+  .sub,
+  .top-footer {
+    flex-direction: column !important;
+  }
+
+  .newsweek-logo-foot svg {
+    width: 150px;
+  }
+}
